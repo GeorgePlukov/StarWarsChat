@@ -71,7 +71,7 @@ func main()  {
 
 
   // fileserver
-  fs := http.FileServer(http.Dir("web-backend/public"))
+  fs := http.FileServer(http.Dir("StarWarsChat/web-backend/public"))
   http.Handle("/", fs)
   http.HandleFunc("/ws", handleConnections)
 

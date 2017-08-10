@@ -1,6 +1,6 @@
-# star-wars-chat
+# star-chat
 
-> A chat client that is star wars themed
+> A Vue.js project
 
 ## Build Setup
 

@@ -1,7 +1,7 @@
 {
-  "name": "star-wars-chat",
+  "name": "star-chat",
   "version": "1.0.0",
-  "description": "A chat client that is star wars themed",
+  "description": "A Vue.js project",
   "author": "George Plukov",
   "private": true,
   "scripts": {

@@ -79,8 +79,8 @@ func main()  {
   // listen for incoming chat messages
   go handleMessages()
 
-  log.Println("http server started on :8000")
-  err:= http.ListenAndServe(":8000", nil)
+  log.Println("http server started on :80")
+  err:= http.ListenAndServe(":80", nil)
   if err != nil {
     log.Fatal("ListenAndServe: ", err)
   }
